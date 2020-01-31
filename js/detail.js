@@ -1,0 +1,1 @@
+getSingleArticle.init();

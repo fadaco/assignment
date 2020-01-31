@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="./css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div>
+    <div id="singleArticleContainer">
+    <div id="article-detail"></div>
+
+    <div class="commentSection"><h2>comment(s)</h2>
+        <div class="message hideItem"></div>
+        <div id="comments"></div>
+        <div id="formContainer" class="commentForm">
+            <div class="formContain">
+            <input class="form-control" type="text" id="name" placeholder="name">
+            </div>
+
+
+            <div class="formContain">
+            <textarea rows="8" cols="50" class="form-control-text" id="comment" placeholder="comment"></textarea>
+            </div>
+
+            <div class="formContain">
+            <input type="file" id="avatar">
+                <div class="testImageHolder">
+            <img src="" id="test">
+                </div>
+            </div>
+
+            <div>
+                <button id="addComment">Add comment</button>
+                <button id="updateComment" class="hideItem">Update comment</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<script src="./js/getSingleArticle.js"></script>
+<script src="./js/detail.js"></script>
+</body>
+
+</html>
